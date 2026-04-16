@@ -1,7 +1,14 @@
 {
-  "name": "npmpublish",
+  "name": "@joerKul/npmpost",
   "version": "1.0.3",
-  "description": "Dieses npm-Projekt wird in dieser Variante gezielt fuer technische Testfaelle eingesetzt und enthaelt deshalb eine aussergewoehnlich lange Beschreibung, die unterschiedlichste Validierungsregeln, Parser-Pfade und Oberflaechenreaktionen unter realistischen Bedingungen simulieren soll. Der Inhalt ist absichtlich redundant und detailliert formuliert, damit Systeme, die Paketmetadaten einlesen, serialisieren, zwischenspeichern, filtern oder in Suchindizes ueberfuehren, auch bei grossen Textmengen stabil bleiben. Innerhalb des fiktiven Szenarios verwaltet das Projekt wiederverwendbare Skripte fuer HTTP-Aufrufe, Antwortpruefungen, Fehlerklassifikation, Retry-Strategien, Logging-Formate, Release-Notizen und automatische Berichte an beteiligte Teams. Darueber hinaus wird beschrieben, dass Build- und Testablaeufe in mehreren Umgebungen laufen, darunter lokale Entwicklungsmaschinen, isolierte CI-Jobs, reproduzierbare Container-Images und ein gestuftes Deployment mit klaren Rollback-Regeln. Ein weiterer Schwerpunkt liegt auf der Beobachtbarkeit, sodass Laufzeiten, Fehlerraten, Zeitstempel, Warnungen, Grenzwertueberschreitungen und Datenqualitaetsindikatoren konsequent erfasst und anschliessend in Dashboards aggregiert werden. Fuer Importtests ist relevant, dass der Text sowohl kuerzere als auch laengere Satzstrukturen kombiniert, wiederkehrende Schluesselbegriffe nutzt und trotz hoher Gesamtlange syntaktisch gueltig bleibt. Ebenso wichtig ist die Eignung fuer UI-Tests, bei denen Kartenansichten, Tabellenzellen, Tooltipps, Suchtreffer, Umbrueche und Kopierfunktionen mit sehr langen Zeichenketten geprueft werden. Aus Qualitaetssicht dient diese Beschreibung zudem als Belastungstest fuer JSON-Parser, Linter, Validatoren und Formatierer, die mit Sonderfaellen wie wiederholten Trennzeichen, stark variierenden Wortlaengen und umfangreichen Metadaten umgehen muessen. In dokumentationsnahen Szenarien wird geprueft, ob Exportfunktionen nach Markdown, HTML oder PDF den vollstaendigen Inhalt verlustfrei uebernehmen und ob nachgelagerte Prozesse die Zeichencodierung korrekt beibehalten. Abschliessend unterstuetzt der Langtext Regressionstests, indem er bei jeder Pipeline-Ausfuehrung identisch verarbeitet wird, damit Veraenderungen in Parser-Logik, Speicherverwaltung oder Frontend-Rendering schnell sichtbar und eindeutig zuordenbar bleiben.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoerKul/npmpost"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "description": "Dieses npm-Projekt wird in dieser Variante gezielt fuer technische Testfaelle eingesetzt.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
